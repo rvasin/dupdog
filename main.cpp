@@ -65,11 +65,12 @@ mutex m;
 
 void ProcessJob()
 {
-   while (jobs.size()>0) {
+   while (true) {
       string filename;
       filesystem::directory_entry entry;
       {
          scoped_lock lock(m);
+         if (jobs.empty()) return;
          entry = jobs.front();
          filename = entry.path().string();
          jobs.pop();
