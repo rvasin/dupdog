@@ -25,4 +25,3 @@ No tests or linters exist in this repo.
 - Single source file: `main.cpp` (all logic inline, no libraries or subpackages).
 - Project name is "dupdog" consistently across `main.cpp`, `README.md`, and `AGENTS.md`.
 - Known bug: `std::bad_alloc` crash when no duplicates are found (see `todo.txt`).
-- `build/` is in `.gitignore` but currently tracked in git history.
