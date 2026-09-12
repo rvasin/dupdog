@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
       cout << "    -t count              threads count" << endl;
       cout << "    -v                    view only (don't ask for file removal)" << endl << endl;
       cout << "Example:" << endl;
-      cout << "   dupbog C:\\books pdf;djvu;epub;fb2" << endl;
+      cout << "   dupdog C:\\books pdf;djvu;epub;fb2" << endl;
       return 0;
    }
    //std::locale::global(boost::locale::generator().generate(""));

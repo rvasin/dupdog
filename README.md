@@ -1,4 +1,4 @@
-# dubdog
+# dupdog
 
 An ultimate CLI duplicate file finder and remover!
 
@@ -28,13 +28,13 @@ cmake --build .
 ### Build directly with G++
 
 ```bash
-g++ main.cpp -o dubdog -O3 -s -llibboost_iostreams-mt -lssl -lcrypto
+g++ main.cpp -o dupdog -O3 -s -llibboost_iostreams-mt -lssl -lcrypto
 ```
 
 ## Usage
 
 ```
-dubdog path extensions [options]
+dupdog path extensions [options]
 
 Options:
 
@@ -48,7 +48,7 @@ Options:
 For example when running on Windows you may run:
 
 ```bash
-dubdog 'C:\Books' pdf,djvu,epub,fb2
+dupdog 'C:\Books' pdf,djvu,epub,fb2
 ```
 
 Current version compares files by file's MD5 hash by default. Optionally it's possible to use `-a hash` in command line:
